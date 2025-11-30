@@ -1,0 +1,660 @@
+/* Thème de couleurs */
+@import url(theme.css);
+
+/* Générique */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: clamp(18px, 2vw, 24px);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+}
+
+a, 
+a:active, 
+a:visited, 
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Conteneur */
+.conteneur {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+/* Barre du haut */
+nav.barre-haut {
+    font-size: 0.9rem;
+    background-color: var(--clr-fond-principale);
+    color: var(--clr-texte-tertiaire);
+}
+
+nav.barre-haut {
+    margin: 0;
+    padding: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.barre-haut a {
+    list-style: none;
+    text-align: center;
+    width: 2rem;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    border: 1px solid var(--clr-bordure-secondaire);
+    background-color: var(--clr-fond-tertiaire);
+    border-radius: 0.3rem;
+}
+
+nav.barre-haut a.actif {
+    background-color: var(--clr-fond-actif);
+    color: var(--clr-texte-secondaire);
+}
+
+/* Barre du logo, de recherche, et panier */
+.barre-logo {
+    width: 80%;
+    margin: 0.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.barre-logo .logo img {
+    width: clamp(125px, 25vw, 250px);
+}
+
+.barre-logo .recherche {
+    width: 100%;
+    flex-grow: 1;
+    height: 50px;
+    border: 1px solid var(--clr-fond-tertiaire);
+    border-radius: 50px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    transition: border-color 180ms , box-shadow 220ms, transform 160ms;
+    will-change: box-shadow, transform;
+}
+/* Focus champ recherche et suppression du contour natif */
+.barre-logo .recherche:focus,
+.barre-logo .recherche:focus-visible {
+    outline: none;
+    border-color: var(--clr-fond-actif);
+    transform: translateY(-3px);
+    box-shadow:
+        inset 0 -2px 8px rgba(0,0,0,0.04),
+        0 10px 30px rgba(10,10,10,0.12),
+        0 0 24px rgba(0,0,0,0.04),
+        0 0 10px var(--clr-fond-actif);
+    border-radius: 50px;
+}
+.barre-logo .panier {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.barre-logo .panier:hover {
+    opacity: 0.7;
+}
+
+.barre-logo .burger {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Navigation principale */
+#cc-btn-responsive {
+    display: none;
+}
+
+nav.principale {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    translate: -100%;
+    background-color: var(--clr-fond-menu-responsive);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 1.5rem;
+    padding: 1rem;
+}
+
+#cc-btn-responsive:checked + nav.principale {
+    display: flex;
+    translate: 0;
+}
+
+nav.principale .menu-controle {
+    text-align: right;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+nav.principale .separateur {
+    width: 100%;
+    height: 2px;
+    background-color: var(--clr-fond-principale);
+}
+
+/* underline animé gauche -> droite via ::after */
+nav.principale a {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.35rem;
+    color: inherit;
+}
+
+/* barre animée */
+nav.principale a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px; 
+    background: var(--clr-fond-actif);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 220ms;
+    pointer-events: none;
+}
+
+/* état hover et actif */
+nav.principale a:hover::after,
+nav.principale a.actif::after {
+    transform: scaleX(1);
+}
+
+
+/* Main : Toutes les pages */
+main {
+    flex-grow: 1;
+    width: 95vw;
+    margin: 2rem auto;
+}
+
+/* Main : Page d'accueil */
+main.page-accueil .amorce {
+    background-image: url(../images/accueil.jpg);
+    background-size: cover;
+    background-position: 100% 60%;
+    padding: 3rem;
+    text-align: center;
+    color: var(--clr-texte-secondaire);
+}
+
+main.page-accueil .amorce h1 {
+    font-size: clamp(1.5rem, 4vw, 4rem);
+    margin: auto;
+}
+
+main.page-accueil .amorce h2 {
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+main.page-accueil .principal {
+    margin: 1rem auto;
+    width: 90vw;
+}
+
+/* Main : Page Teeshirts/Casquettes/Hoodies */
+main.page-produits .amorce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+main.page-produits .amorce .controle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.75rem;
+    font-size: 0.9rem;
+}
+
+main.page-produits .amorce .controle > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+main.page-produits .amorce .controle label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+main.page-produits .amorce .controle select {
+    padding: 0.5rem 2.5rem 0.5rem 0.8rem;
+    border: 2px solid var(--clr-bordure-secondaire);
+    border-radius: 1.5rem;
+    background-color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.2rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+main.page-produits .amorce .controle select:hover {
+    border-color: var(--clr-fond-principale);
+}
+
+main.page-produits .amorce .controle select:focus {
+    outline: none;
+    border-color: var(--clr-fond-actif);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+/* TP/Volet 1 : Mobile */
+main.page-produits .principal {
+    width: 90vw;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main.page-produits .principal .produit {
+    width: 20%;
+    min-width: 15rem;
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 180ms, box-shadow 180ms;
+}
+
+main.page-produits .principal .produit:hover {
+    box-shadow: 0 20px 60px rgba(10,10,10,0.32), 0 0px 20px rgba(0,0,0,0.20);
+    transform: translateY(-4px);
+    border-radius: 10px;
+}
+
+main.page-produits .principal .produit .nom {
+    text-align: center;
+}
+
+main.page-produits .principal .produit .prix {
+    text-align: center;
+    font-weight: bold;
+}
+
+main.page-produits .principal .produit .ventes {
+    position: absolute;
+    top: -12px;
+    left: -10px;
+    background: linear-gradient(135deg, #39d353 0%, #0b7a2b 100%);
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 15px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    box-shadow: 0 6px 18px rgba(10,10,10,0.18), 0 2px 6px rgba(0,0,0,0.12);
+    user-select: none;
+    z-index: 3;
+    transition: transform 180ms, box-shadow 180ms;
+}
+
+/* Effet au survol pour interaction */
+main.page-produits .principal .produit .ventes:hover {
+    transform: rotate(-10deg) scale(1.06);
+    box-shadow: 0 10px 26px rgba(10,10,10,0.26);
+}
+
+/* Petit éclat décoratif */
+main.page-produits .principal .produit .ventes::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    width: 7px;
+    height: 7px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(255,255,255,0.35);
+}
+
+main.page-produits .principal .produit .ventes.aucunes {
+    display: none; /* ne s'affiche pas si 0 ventes */
+}
+main.page-produits .principal .produit .image{
+    position: relative;
+}
+
+main.page-produits .principal .produit .image img {
+    width: 100%;
+}
+
+/* Pied de page */
+footer {
+    background-color: var(--clr-fond-tertiaire);
+    color: var(--clr-texte-secondaire);
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer div.contenu {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+
+    row-gap: 1rem;
+}
+
+footer div.contenu section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div.contenu section nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .da {
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Main : Page Panier (Mobile First) */
+main.page-panier .amorce {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+main.page-panier .amorce h1 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin: 1rem 0;
+}
+
+main.page-panier .principal {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.panier-conteneur {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Article du panier - Mobile (empilement vertical) */
+.panier-article {
+    display: grid;
+    grid-template-columns: 60px 1fr 40px 50px 70px 90px 40px;
+    grid-template-areas:
+        "img nom nom nom nom nom del"
+        "img couleur taille qte prix prix del";
+    gap: 0.75rem;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px dotted #ccc;
+}
+/* Image du produit */
+.panier-article img {
+    grid-area: img;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+
+.produit-nom {
+    grid-area: nom;
+    font-weight: 500;
+}
+
+.produit-couleur {
+    grid-area: couleur;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.3rem;
+    border: 1px solid #ddd;
+}
+
+.produit-taille {
+    grid-area: taille;
+    text-align: center;
+}
+
+.produit-quantite {
+    grid-area: qte;
+    width: 60px;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.produit-prix {
+    grid-area: prix;
+    font-weight: 500;
+    text-align: right;
+}
+
+.btn-supprimer {
+    grid-area: del;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem;
+    justify-self: center;
+}
+
+.btn-supprimer:hover {
+    opacity: 0.7;
+}
+
+.btn-supprimer .material-icons {
+    font-size: 1.5rem;
+}
+
+/* Séparateur */
+.panier-separateur {
+    margin: 2rem 0 1.5rem 0;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+/* Résumé du panier */
+.panier-resume {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+    margin-bottom: 2rem;
+}
+
+.resume-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.resume-sousTotal {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-completer {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-completer:hover {
+    background-color: #1b5e20;
+}
+
+@media (min-width: 1000px) {
+    .barre-logo  {
+        flex-wrap: nowrap;
+    }
+
+    .barre-logo .logo img {
+        width: clamp(250px, 35vw, 350px);
+    }
+
+    .barre-logo .recherche {
+        min-width: 50%;
+    }
+
+    .barre-logo .panier {
+        order: 1;
+    }
+
+    .barre-logo .burger {
+        display: none;
+    }
+
+    nav.principale {
+        translate: 0;
+        display: flex;
+        position: relative;
+        top: initial;
+        left: initial;
+        bottom: initial;
+        background-color: initial;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.5rem;
+        padding: 0;
+    }
+
+    nav.principale .separateur {
+        width: 15px;
+        height: 15px;
+        border-radius: 25px;
+        background-color: var(--clr-fond-principale);
+        margin: 0 2rem;
+    }
+
+    nav.principale .menu-controle {
+        display: none;
+    }
+
+    main.page-accueil .amorce h1 {
+        margin: auto 12vw;
+    }
+
+    main.page-accueil .principal {
+        margin: 1rem auto;
+        width: 70vw;
+    }
+
+    /* Page Teeshirts */
+    main.page-produits .amorce .controle {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+    }
+
+    main.page-produits .amorce .controle > div {
+        margin: 0;
+    }
+
+    main.page-produits .amorce .controle select {
+        min-width: 200px;
+    }
+
+    /* Page Panier - Desktop */
+    .panier-article {
+        grid-template-columns: 70px 1fr 40px 60px 80px 100px 50px;
+        grid-template-areas: "img nom couleur taille qte prix del";
+        gap: 1rem;
+    }
+
+    .panier-article img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .produit-nom {
+        min-width: 200px;
+    }
+
+    .produit-couleur {
+        width: 35px;
+        height: 35px;
+        justify-self: center;
+    }
+
+    .produit-taille {
+        justify-self: center;
+    }
+
+    .produit-quantite {
+        justify-self: center;
+    }
+
+    .resume-info {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .panier-resume {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-completer {
+        padding: 1rem 3rem;
+    }
+
+    footer div.contenu {
+        flex-direction: row;
+        justify-content: center;
+        align-items: initial;
+        text-align: initial;
+        column-gap: 3rem;
+    }
+}

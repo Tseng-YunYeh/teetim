@@ -1,0 +1,2292 @@
+{
+  "animaux": {
+    "theme": {
+      "fr": "Animaux",
+      "en": "Animals",
+      "es": "Animales"
+    },
+    "produits": [
+      {
+        "id": "ts0001",
+        "nom": {
+          "fr": "Cute comme un poisson tropical",
+          "en": "Cute as a Tropical Fish",
+          "es": "Tierno como un pez tropical"
+        },
+        "dac": "2020-04-25",
+        "ventes": 34,
+        "prix": 25.95
+      },
+      {
+        "id": "ts0004",
+        "nom": {
+          "fr": "Monstre douillet",
+          "en": "Fluffy Monster",
+          "es": "Monstruo esponjoso"
+        },
+        "dac": "2023-08-12",
+        "ventes": 123,
+        "prix": 25.95
+      },
+      {
+        "id": "ts0006",
+        "nom": {
+          "fr": "Camarade basque",
+          "en": "Basque Buddy",
+          "es": "Amigo vasco"
+        },
+        "dac": "2023-02-27",
+        "ventes": 20,
+        "prix": 20.5
+      },
+      {
+        "id": "ts0007",
+        "nom": {
+          "fr": "Chaton moteur",
+          "en": "Engine Kitten",
+          "es": "Gatito motorizado"
+        },
+        "dac": "2024-10-01",
+        "ventes": 12,
+        "prix": 27.5
+      },
+      {
+        "id": "ts0009",
+        "nom": {
+          "fr": "Renardcoptère",
+          "en": "Foxcopter",
+          "es": "Zorrocóptero"
+        },
+        "dac": "2023-05-04",
+        "ventes": 56,
+        "prix": 17.95
+      },
+      {
+        "id": "ts0013",
+        "nom": {
+          "fr": "L'outre d'outremer",
+          "en": "The Ultramarine Otter",
+          "es": "La nutria ultramarina"
+        },
+        "dac": "2023-10-11",
+        "ventes": 260,
+        "prix": 15.95
+      },
+      {
+        "id": "ts0021",
+        "nom": {
+          "fr": "Éléphant cosmique",
+          "en": "Cosmic Elephant",
+          "es": "Elefante cósmico"
+        },
+        "dac": "2023-03-15",
+        "ventes": 87,
+        "prix": 23.95
+      },
+      {
+        "id": "ts0035",
+        "nom": {
+          "fr": "Pingouin ninja",
+          "en": "Ninja Penguin",
+          "es": "Pingüino ninja"
+        },
+        "dac": "2024-01-18",
+        "ventes": 156,
+        "prix": 19.99
+      },
+      {
+        "id": "ts0042",
+        "nom": {
+          "fr": "Loup lunaire",
+          "en": "Moon Wolf",
+          "es": "Lobo lunar"
+        },
+        "dac": "2024-05-23",
+        "ventes": 78,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0054",
+        "nom": {
+          "fr": "Hibou mécanicien",
+          "en": "Mechanic Owl",
+          "es": "Búho mecánico"
+        },
+        "dac": "2023-11-07",
+        "ventes": 203,
+        "prix": 22.75
+      },
+      {
+        "id": "ts0067",
+        "nom": {
+          "fr": "Papillon électrique",
+          "en": "Electric Butterfly",
+          "es": "Mariposa eléctrica"
+        },
+        "dac": "2024-08-14",
+        "ventes": 45,
+        "prix": 24.99
+      },
+      {
+        "id": "ts0081",
+        "nom": {
+          "fr": "Lapin voyageur",
+          "en": "Traveling Rabbit",
+          "es": "Conejo viajero"
+        },
+        "dac": "2023-09-28",
+        "ventes": 134,
+        "prix": 21.50
+      },
+      {
+        "id": "ts0098",
+        "nom": {
+          "fr": "Tortue fusée",
+          "en": "Rocket Turtle",
+          "es": "Tortuga cohete"
+        },
+        "dac": "2024-02-12",
+        "ventes": 92,
+        "prix": 28.95
+      },
+      {
+        "id": "ts0112",
+        "nom": {
+          "fr": "Requin philosophe",
+          "en": "Philosopher Shark",
+          "es": "Tiburón filósofo"
+        },
+        "dac": "2023-06-30",
+        "ventes": 167,
+        "prix": 25.00
+      },
+      {
+        "id": "ts0128",
+        "nom": {
+          "fr": "Girafe DJ",
+          "en": "DJ Giraffe",
+          "es": "Jirafa DJ"
+        },
+        "dac": "2024-04-05",
+        "ventes": 89,
+        "prix": 23.75
+      },
+      {
+        "id": "ts0143",
+        "nom": {
+          "fr": "Koala surfeur",
+          "en": "Surfer Koala",
+          "es": "Koala surfista"
+        },
+        "dac": "2024-07-19",
+        "ventes": 56,
+        "prix": 27.25
+      },
+      {
+        "id": "ts0205",
+        "nom": {
+          "fr": "Panda rêveur",
+          "en": "Dreamy Panda",
+          "es": "Panda soñador"
+        },
+        "dac": "2024-01-15",
+        "ventes": 45,
+        "prix": 23.95
+      },
+      {
+        "id": "ts0206",
+        "nom": {
+          "fr": "Dauphin stellaire",
+          "en": "Stellar Dolphin",
+          "es": "Delfín estelar"
+        },
+        "dac": "2024-02-20",
+        "ventes": 67,
+        "prix": 25.50
+      },
+      {
+        "id": "ts0207",
+        "nom": {
+          "fr": "Koala musicien",
+          "en": "Musician Koala",
+          "es": "Koala músico"
+        },
+        "dac": "2024-03-10",
+        "ventes": 34,
+        "prix": 21.99
+      },
+      {
+        "id": "ts0208",
+        "nom": {
+          "fr": "Tigre cosmique",
+          "en": "Cosmic Tiger",
+          "es": "Tigre cósmico"
+        },
+        "dac": "2024-04-05",
+        "ventes": 89,
+        "prix": 28.95
+      },
+      {
+        "id": "ts0209",
+        "nom": {
+          "fr": "Pieuvre savante",
+          "en": "Wise Octopus",
+          "es": "Pulpo sabio"
+        },
+        "dac": "2024-05-12",
+        "ventes": 56,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0210",
+        "nom": {
+          "fr": "Licorne vintage",
+          "en": "Vintage Unicorn",
+          "es": "Unicornio vintage"
+        },
+        "dac": "2024-06-18",
+        "ventes": 123,
+        "prix": 29.99
+      },
+      {
+        "id": "ts0211",
+        "nom": {
+          "fr": "Écureuil pilote",
+          "en": "Pilot Squirrel",
+          "es": "Ardilla piloto"
+        },
+        "dac": "2024-07-22",
+        "ventes": 78,
+        "prix": 24.75
+      },
+      {
+        "id": "ts0212",
+        "nom": {
+          "fr": "Baleine lunaire",
+          "en": "Moon Whale",
+          "es": "Ballena lunar"
+        },
+        "dac": "2024-08-30",
+        "ventes": 91,
+        "prix": 27.95
+      }
+    ]
+  },
+  "inusite": {
+    "theme": {
+      "fr": "Inusité",
+      "en": "Unusual",
+      "es": "Inusual"
+    },
+    "produits": [
+      {
+        "id": "ts0002",
+        "nom": {
+          "fr": "Fauteuil illégal",
+          "en": "Armchair Avocado",
+          "es": "Sillón aguacate"
+        },
+        "dac": "2024-06-20",
+        "ventes": 6,
+        "prix": 20.5
+      },
+      {
+        "id": "ts0014",
+        "nom": {
+          "fr": "Cerveau volant",
+          "en": "Flying Brain",
+          "es": "Cerebro volador"
+        },
+        "dac": "2023-08-08",
+        "ventes": 154,
+        "prix": 24.5
+      },
+      {
+        "id": "ts0019",
+        "nom": {
+          "fr": "Beau bébébot",
+          "en": "Pretty Babybot",
+          "es": "Bonito bebébot"
+        },
+        "dac": "2024-09-05",
+        "ventes": 2,
+        "prix": 26.5
+      },
+      {
+        "id": "ts0020",
+        "nom": {
+          "fr": "Grille-pain couac-couac",
+          "en": "Quack-Toaster",
+          "es": "Tostadora cuac-cuac"
+        },
+        "dac": "2024-10-01",
+        "ventes": 0,
+        "prix": 20
+      },
+      {
+        "id": "ts0032",
+        "nom": {
+          "fr": "Spaghetti volant",
+          "en": "Flying Spaghetti",
+          "es": "Espaguetis voladores"
+        },
+        "dac": "2023-12-11",
+        "ventes": 73,
+        "prix": 22.99
+      },
+      {
+        "id": "ts0045",
+        "nom": {
+          "fr": "Chaussette quantique",
+          "en": "Quantum Sock",
+          "es": "Calcetín cuántico"
+        },
+        "dac": "2024-03-08",
+        "ventes": 18,
+        "prix": 19.95
+      },
+      {
+        "id": "ts0058",
+        "nom": {
+          "fr": "Nuage en colère",
+          "en": "Angry Cloud",
+          "es": "Nube enojada"
+        },
+        "dac": "2023-07-22",
+        "ventes": 101,
+        "prix": 21.75
+      },
+      {
+        "id": "ts0071",
+        "nom": {
+          "fr": "Fourchette interdimensionnelle",
+          "en": "Interdimensional Fork",
+          "es": "Tenedor interdimensional"
+        },
+        "dac": "2024-06-03",
+        "ventes": 37,
+        "prix": 26.00
+      },
+      {
+        "id": "ts0086",
+        "nom": {
+          "fr": "Aspirateur à rêves",
+          "en": "Dream Vacuum",
+          "es": "Aspiradora de sueños"
+        },
+        "dac": "2023-10-29",
+        "ventes": 64,
+        "prix": 24.25
+      },
+      {
+        "id": "ts0103",
+        "nom": {
+          "fr": "Banane philosophique",
+          "en": "Philosophical Banana",
+          "es": "Plátano filosófico"
+        },
+        "dac": "2024-01-25",
+        "ventes": 149,
+        "prix": 18.50
+      },
+      {
+        "id": "ts0119",
+        "nom": {
+          "fr": "Lampe à idées",
+          "en": "Idea Lamp",
+          "es": "Lámpara de ideas"
+        },
+        "dac": "2024-05-16",
+        "ventes": 82,
+        "prix": 29.99
+      },
+      {
+        "id": "ts0135",
+        "nom": {
+          "fr": "Sandwich temporel",
+          "en": "Time Sandwich",
+          "es": "Sándwich temporal"
+        },
+        "dac": "2023-04-14",
+        "ventes": 25,
+        "prix": 23.00
+      },
+      {
+        "id": "ts0230",
+        "nom": {
+          "fr": "Horloge inverse",
+          "en": "Reverse Clock",
+          "es": "Reloj inverso"
+        },
+        "dac": "2024-01-20",
+        "ventes": 43,
+        "prix": 26.95
+      },
+      {
+        "id": "ts0231",
+        "nom": {
+          "fr": "Parapluie solaire",
+          "en": "Solar Umbrella",
+          "es": "Paraguas solar"
+        },
+        "dac": "2024-02-25",
+        "ventes": 38,
+        "prix": 25.50
+      },
+      {
+        "id": "ts0232",
+        "nom": {
+          "fr": "Escalier nulle part",
+          "en": "Stairway to Nowhere",
+          "es": "Escalera a ninguna parte"
+        },
+        "dac": "2024-03-30",
+        "ventes": 52,
+        "prix": 28.99
+      },
+      {
+        "id": "ts0233",
+        "nom": {
+          "fr": "Porte imaginaire",
+          "en": "Imaginary Door",
+          "es": "Puerta imaginaria"
+        },
+        "dac": "2024-04-15",
+        "ventes": 61,
+        "prix": 27.75
+      },
+      {
+        "id": "ts0234",
+        "nom": {
+          "fr": "Miroir transparent",
+          "en": "Transparent Mirror",
+          "es": "Espejo transparente"
+        },
+        "dac": "2024-05-20",
+        "ventes": 47,
+        "prix": 29.50
+      },
+      {
+        "id": "ts0235",
+        "nom": {
+          "fr": "Lumière obscure",
+          "en": "Dark Light",
+          "es": "Luz oscura"
+        },
+        "dac": "2024-06-25",
+        "ventes": 56,
+        "prix": 26.95
+      },
+      {
+        "id": "ts0236",
+        "nom": {
+          "fr": "Silence bruyant",
+          "en": "Loud Silence",
+          "es": "Silencio ruidoso"
+        },
+        "dac": "2024-07-30",
+        "ventes": 44,
+        "prix": 25.99
+      },
+      {
+        "id": "ts0237",
+        "nom": {
+          "fr": "Vide plein",
+          "en": "Full Emptiness",
+          "es": "Vacío lleno"
+        },
+        "dac": "2024-08-25",
+        "ventes": 39,
+        "prix": 27.50
+      },
+      {
+        "id": "ts0238",
+        "nom": {
+          "fr": "Cercle carré",
+          "en": "Square Circle",
+          "es": "Círculo cuadrado"
+        },
+        "dac": "2024-09-15",
+        "ventes": 51,
+        "prix": 28.95
+      }
+    ]
+  },
+  "sport": {
+    "theme": {
+      "fr": "Sport",
+      "en": "Sport",
+      "es": "Deporte"
+    },
+    "produits": [
+      {
+        "id": "ts0003",
+        "nom": {
+          "fr": "Un dunk dans l'univers",
+          "en": "A Dunk in the Universe",
+          "es": "Un mate en el universo"
+        },
+        "dac": "2024-01-02",
+        "ventes": 21,
+        "prix": 22.75
+      },
+      {
+        "id": "ts0015",
+        "nom": {
+          "fr": "Basket courbe",
+          "en": "Curved Basket",
+          "es": "Canasta curvada"
+        },
+        "dac": "2023-09-04",
+        "ventes": 158,
+        "prix": 19.75
+      },
+      {
+        "id": "ts0016",
+        "nom": {
+          "fr": "Pizza, vino e calcio",
+          "en": "Pizza, Wine and Football",
+          "es": "Pizza, vino y fútbol"
+        },
+        "dac": "2024-07-18",
+        "ventes": 40,
+        "prix": 19.75
+      },
+      {
+        "id": "ts0027",
+        "nom": {
+          "fr": "Surfeur cosmique",
+          "en": "Cosmic Surfer",
+          "es": "Surfista cósmico"
+        },
+        "dac": "2023-05-19",
+        "ventes": 195,
+        "prix": 24.50
+      },
+      {
+        "id": "ts0039",
+        "nom": {
+          "fr": "Boxeur robot",
+          "en": "Robot Boxer",
+          "es": "Boxeador robot"
+        },
+        "dac": "2024-02-28",
+        "ventes": 76,
+        "prix": 26.95
+      },
+      {
+        "id": "ts0051",
+        "nom": {
+          "fr": "Tennis galactique",
+          "en": "Galactic Tennis",
+          "es": "Tenis galáctico"
+        },
+        "dac": "2023-12-03",
+        "ventes": 112,
+        "prix": 21.99
+      },
+      {
+        "id": "ts0063",
+        "nom": {
+          "fr": "Nageur des profondeurs",
+          "en": "Deep Sea Swimmer",
+          "es": "Nadador de las profundidades"
+        },
+        "dac": "2024-08-07",
+        "ventes": 88,
+        "prix": 23.25
+      },
+      {
+        "id": "ts0078",
+        "nom": {
+          "fr": "Cycliste lunaire",
+          "en": "Lunar Cyclist",
+          "es": "Ciclista lunar"
+        },
+        "dac": "2023-11-15",
+        "ventes": 143,
+        "prix": 25.75
+      },
+      {
+        "id": "ts0094",
+        "nom": {
+          "fr": "Escrimeur ninja",
+          "en": "Ninja Fencer",
+          "es": "Esgrimista ninja"
+        },
+        "dac": "2024-04-21",
+        "ventes": 67,
+        "prix": 28.00
+      },
+      {
+        "id": "ts0107",
+        "nom": {
+          "fr": "Golfeur martien",
+          "en": "Martian Golfer",
+          "es": "Golfista marciano"
+        },
+        "dac": "2023-08-26",
+        "ventes": 154,
+        "prix": 22.50
+      },
+      {
+        "id": "ts0123",
+        "nom": {
+          "fr": "Skieur volant",
+          "en": "Flying Skier",
+          "es": "Esquiador volador"
+        },
+        "dac": "2024-01-12",
+        "ventes": 91,
+        "prix": 24.95
+      },
+      {
+        "id": "ts0138",
+        "nom": {
+          "fr": "Plongeur spatial",
+          "en": "Space Diver",
+          "es": "Buceador espacial"
+        },
+        "dac": "2024-06-29",
+        "ventes": 58,
+        "prix": 27.75
+      },
+      {
+        "id": "ts0273",
+        "nom": {
+          "fr": "Sprint galactique",
+          "en": "Galactic Sprint",
+          "es": "Sprint galáctico"
+        },
+        "dac": "2024-01-14",
+        "ventes": 112,
+        "prix": 25.95
+      },
+      {
+        "id": "ts0274",
+        "nom": {
+          "fr": "Slam dunk cosmique",
+          "en": "Cosmic Slam Dunk",
+          "es": "Mate cósmico"
+        },
+        "dac": "2024-02-16",
+        "ventes": 134,
+        "prix": 27.50
+      },
+      {
+        "id": "ts0275",
+        "nom": {
+          "fr": "But impossible",
+          "en": "Impossible Goal",
+          "es": "Gol imposible"
+        },
+        "dac": "2024-03-22",
+        "ventes": 156,
+        "prix": 26.99
+      },
+      {
+        "id": "ts0276",
+        "nom": {
+          "fr": "Marathon éternel",
+          "en": "Eternal Marathon",
+          "es": "Maratón eterno"
+        },
+        "dac": "2024-04-26",
+        "ventes": 98,
+        "prix": 28.95
+      },
+      {
+        "id": "ts0277",
+        "nom": {
+          "fr": "Planche de surf stellaire",
+          "en": "Stellar Surfboard",
+          "es": "Tabla de surf estelar"
+        },
+        "dac": "2024-05-30",
+        "ventes": 87,
+        "prix": 29.50
+      },
+      {
+        "id": "ts0278",
+        "nom": {
+          "fr": "Patin à glace lunaire",
+          "en": "Lunar Ice Skate",
+          "es": "Patín lunar"
+        },
+        "dac": "2024-06-14",
+        "ventes": 76,
+        "prix": 24.75
+      },
+      {
+        "id": "ts0279",
+        "nom": {
+          "fr": "Ballon magique",
+          "en": "Magic Ball",
+          "es": "Balón mágico"
+        },
+        "dac": "2024-07-19",
+        "ventes": 145,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0280",
+        "nom": {
+          "fr": "Record absolu",
+          "en": "Absolute Record",
+          "es": "Récord absoluto"
+        },
+        "dac": "2024-08-24",
+        "ventes": 123,
+        "prix": 27.95
+      }
+    ]
+  },
+  "nature": {
+    "theme": {
+      "fr": "Nature",
+      "en": "Nature",
+      "es": "Naturaleza"
+    },
+    "produits": [
+      {
+        "id": "ts0005",
+        "nom": {
+          "fr": "Bleu comme une orange",
+          "en": "Blue as an Orange",
+          "es": "Azul como una naranja"
+        },
+        "dac": "2023-12-25",
+        "ventes": 325,
+        "prix": 25.95
+      },
+      {
+        "id": "ts0008",
+        "nom": {
+          "fr": "Et vogue le navire",
+          "en": "And the Ship Sails",
+          "es": "Y el barco navega"
+        },
+        "dac": "2020-12-21",
+        "ventes": 293,
+        "prix": 15.5
+      },
+      {
+        "id": "ts0010",
+        "nom": {
+          "fr": "Par une nuit d'été sur Mars",
+          "en": "On a Summer Night on Mars",
+          "es": "En una noche de verano en Marte"
+        },
+        "dac": "2024-01-30",
+        "ventes": 48,
+        "prix": 22
+      },
+      {
+        "id": "ts0011",
+        "nom": {
+          "fr": "Le déjeuner pointilliste",
+          "en": "The Pointillist Lunch",
+          "es": "El almuerzo puntillista"
+        },
+        "dac": "2024-02-21",
+        "ventes": 55,
+        "prix": 21
+      },
+      {
+        "id": "ts0012",
+        "nom": {
+          "fr": "Portrait au tournesol",
+          "en": "Portrait with Sunflower",
+          "es": "Retrato con girasol"
+        },
+        "dac": "2024-03-26",
+        "ventes": 24,
+        "prix": 29.99
+      },
+      {
+        "id": "ts0017",
+        "nom": {
+          "fr": "Reflexion dans le lac",
+          "en": "Reflection in the Lake",
+          "es": "Reflexión en el lago"
+        },
+        "dac": "2024-07-10",
+        "ventes": 12,
+        "prix": 21.5
+      },
+      {
+        "id": "ts0018",
+        "nom": {
+          "fr": "Levé de soleil en automne",
+          "en": "Autumn Sunrise",
+          "es": "Amanecer otoñal"
+        },
+        "dac": "2024-08-28",
+        "ventes": 5,
+        "prix": 22.95
+      },
+      {
+        "id": "ts0024",
+        "nom": {
+          "fr": "Forêt enchantée",
+          "en": "Enchanted Forest",
+          "es": "Bosque encantado"
+        },
+        "dac": "2023-04-17",
+        "ventes": 267,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0033",
+        "nom": {
+          "fr": "Montagne mystique",
+          "en": "Mystic Mountain",
+          "es": "Montaña mística"
+        },
+        "dac": "2024-05-11",
+        "ventes": 189,
+        "prix": 24.75
+      },
+      {
+        "id": "ts0047",
+        "nom": {
+          "fr": "Océan de cristal",
+          "en": "Crystal Ocean",
+          "es": "Océano de cristal"
+        },
+        "dac": "2023-09-14",
+        "ventes": 145,
+        "prix": 23.99
+      },
+      {
+        "id": "ts0060",
+        "nom": {
+          "fr": "Aurore boréale",
+          "en": "Northern Lights",
+          "es": "Aurora boreal"
+        },
+        "dac": "2024-02-08",
+        "ventes": 98,
+        "prix": 28.50
+      },
+      {
+        "id": "ts0074",
+        "nom": {
+          "fr": "Cascade arc-en-ciel",
+          "en": "Rainbow Waterfall",
+          "es": "Cascada arcoíris"
+        },
+        "dac": "2023-06-25",
+        "ventes": 176,
+        "prix": 25.25
+      },
+      {
+        "id": "ts0088",
+        "nom": {
+          "fr": "Désert étoilé",
+          "en": "Starry Desert",
+          "es": "Desierto estrellado"
+        },
+        "dac": "2024-08-13",
+        "ventes": 72,
+        "prix": 22.00
+      },
+      {
+        "id": "ts0101",
+        "nom": {
+          "fr": "Jardin volant",
+          "en": "Flying Garden",
+          "es": "Jardín volador"
+        },
+        "dac": "2023-10-06",
+        "ventes": 134,
+        "prix": 27.95
+      },
+      {
+        "id": "ts0115",
+        "nom": {
+          "fr": "Rivière de lune",
+          "en": "Moon River",
+          "es": "Río de luna"
+        },
+        "dac": "2024-03-19",
+        "ventes": 87,
+        "prix": 21.75
+      },
+      {
+        "id": "ts0129",
+        "nom": {
+          "fr": "Tempête de pétales",
+          "en": "Petal Storm",
+          "es": "Tormenta de pétalos"
+        },
+        "dac": "2024-07-04",
+        "ventes": 63,
+        "prix": 26.25
+      },
+      {
+        "id": "ts0256",
+        "nom": {
+          "fr": "Forêt enchantée",
+          "en": "Enchanted Forest",
+          "es": "Bosque encantado"
+        },
+        "dac": "2024-01-25",
+        "ventes": 134,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0257",
+        "nom": {
+          "fr": "Cascade lumineuse",
+          "en": "Luminous Waterfall",
+          "es": "Cascada luminosa"
+        },
+        "dac": "2024-02-19",
+        "ventes": 156,
+        "prix": 28.95
+      },
+      {
+        "id": "ts0258",
+        "nom": {
+          "fr": "Montagne sacrée",
+          "en": "Sacred Mountain",
+          "es": "Montaña sagrada"
+        },
+        "dac": "2024-03-24",
+        "ventes": 112,
+        "prix": 29.99
+      },
+      {
+        "id": "ts0259",
+        "nom": {
+          "fr": "Océan infini",
+          "en": "Infinite Ocean",
+          "es": "Océano infinito"
+        },
+        "dac": "2024-04-28",
+        "ventes": 145,
+        "prix": 27.50
+      },
+      {
+        "id": "ts0260",
+        "nom": {
+          "fr": "Aurore boréale",
+          "en": "Northern Lights",
+          "es": "Aurora boreal"
+        },
+        "dac": "2024-05-22",
+        "ventes": 178,
+        "prix": 31.95
+      },
+      {
+        "id": "ts0261",
+        "nom": {
+          "fr": "Désert mystérieux",
+          "en": "Mysterious Desert",
+          "es": "Desierto misterioso"
+        },
+        "dac": "2024-06-27",
+        "ventes": 98,
+        "prix": 25.75
+      },
+      {
+        "id": "ts0262",
+        "nom": {
+          "fr": "Jungle dense",
+          "en": "Dense Jungle",
+          "es": "Jungla densa"
+        },
+        "dac": "2024-07-18",
+        "ventes": 123,
+        "prix": 28.50
+      },
+      {
+        "id": "ts0263",
+        "nom": {
+          "fr": "Volcan endormi",
+          "en": "Sleeping Volcano",
+          "es": "Volcán dormido"
+        },
+        "dac": "2024-08-22",
+        "ventes": 87,
+        "prix": 26.99
+      },
+      {
+        "id": "ts0264",
+        "nom": {
+          "fr": "Prairie fleurie",
+          "en": "Flowery Meadow",
+          "es": "Pradera florecida"
+        },
+        "dac": "2024-09-12",
+        "ventes": 109,
+        "prix": 24.95
+      }
+    ]
+  },
+  "jv": {
+    "theme": {
+      "fr": "Jeux vidéo",
+      "en": "Video Games",
+      "es": "Videojuegos"
+    },
+    "produits": [
+      {
+        "id": "ts0022",
+        "nom": {
+          "fr": "Pixel warrior",
+          "en": "Pixel Warrior",
+          "es": "Guerrero píxel"
+        },
+        "dac": "2023-05-12",
+        "ventes": 234,
+        "prix": 25.99
+      },
+      {
+        "id": "ts0036",
+        "nom": {
+          "fr": "Boss final",
+          "en": "Final Boss",
+          "es": "Jefe final"
+        },
+        "dac": "2024-01-07",
+        "ventes": 178,
+        "prix": 24.50
+      },
+      {
+        "id": "ts0043",
+        "nom": {
+          "fr": "Quête épique",
+          "en": "Epic Quest",
+          "es": "Misión épica"
+        },
+        "dac": "2023-08-21",
+        "ventes": 156,
+        "prix": 22.95
+      },
+      {
+        "id": "ts0055",
+        "nom": {
+          "fr": "Mage électronique",
+          "en": "Electronic Mage",
+          "es": "Mago electrónico"
+        },
+        "dac": "2024-04-14",
+        "ventes": 92,
+        "prix": 26.75
+      },
+      {
+        "id": "ts0068",
+        "nom": {
+          "fr": "Arcade nostalgique",
+          "en": "Nostalgic Arcade",
+          "es": "Arcade nostálgico"
+        },
+        "dac": "2023-11-28",
+        "ventes": 201,
+        "prix": 23.25
+      },
+      {
+        "id": "ts0082",
+        "nom": {
+          "fr": "Speedrun master",
+          "en": "Speedrun Master",
+          "es": "Maestro speedrun"
+        },
+        "dac": "2024-06-17",
+        "ventes": 118,
+        "prix": 27.50
+      },
+      {
+        "id": "ts0095",
+        "nom": {
+          "fr": "Héros 8-bit",
+          "en": "8-bit Hero",
+          "es": "Héroe 8-bit"
+        },
+        "dac": "2023-07-09",
+        "ventes": 189,
+        "prix": 21.99
+      },
+      {
+        "id": "ts0108",
+        "nom": {
+          "fr": "Power-up légendaire",
+          "en": "Legendary Power-up",
+          "es": "Power-up legendario"
+        },
+        "dac": "2024-02-25",
+        "ventes": 143,
+        "prix": 25.00
+      },
+      {
+        "id": "ts0124",
+        "nom": {
+          "fr": "Glitch artistique",
+          "en": "Artistic Glitch",
+          "es": "Glitch artístico"
+        },
+        "dac": "2024-05-08",
+        "ventes": 76,
+        "prix": 24.25
+      },
+      {
+        "id": "ts0139",
+        "nom": {
+          "fr": "Console rétro",
+          "en": "Retro Console",
+          "es": "Consola retro"
+        },
+        "dac": "2023-12-16",
+        "ventes": 167,
+        "prix": 28.95
+      },
+      {
+        "id": "ts0239",
+        "nom": {
+          "fr": "Pixel héroïque",
+          "en": "Heroic Pixel",
+          "es": "Píxel heroico"
+        },
+        "dac": "2024-01-18",
+        "ventes": 178,
+        "prix": 24.95
+      },
+      {
+        "id": "ts0240",
+        "nom": {
+          "fr": "Boss final",
+          "en": "Final Boss",
+          "es": "Jefe final"
+        },
+        "dac": "2024-02-22",
+        "ventes": 203,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0241",
+        "nom": {
+          "fr": "Game Over",
+          "en": "Game Over",
+          "es": "Game Over"
+        },
+        "dac": "2024-03-28",
+        "ventes": 189,
+        "prix": 23.99
+      },
+      {
+        "id": "ts0242",
+        "nom": {
+          "fr": "Power-up légendaire",
+          "en": "Legendary Power-up",
+          "es": "Power-up legendario"
+        },
+        "dac": "2024-04-12",
+        "ventes": 167,
+        "prix": 27.95
+      },
+      {
+        "id": "ts0243",
+        "nom": {
+          "fr": "Lag mortel",
+          "en": "Deadly Lag",
+          "es": "Lag mortal"
+        },
+        "dac": "2024-05-18",
+        "ventes": 145,
+        "prix": 25.50
+      },
+      {
+        "id": "ts0244",
+        "nom": {
+          "fr": "Respawn immédiat",
+          "en": "Instant Respawn",
+          "es": "Respawn instantáneo"
+        },
+        "dac": "2024-06-24",
+        "ventes": 156,
+        "prix": 24.75
+      },
+      {
+        "id": "ts0245",
+        "nom": {
+          "fr": "Quête épique",
+          "en": "Epic Quest",
+          "es": "Misión épica"
+        },
+        "dac": "2024-07-29",
+        "ventes": 192,
+        "prix": 28.99
+      },
+      {
+        "id": "ts0246",
+        "nom": {
+          "fr": "Glitch artistique",
+          "en": "Artistic Glitch",
+          "es": "Glitch artístico"
+        },
+        "dac": "2024-08-18",
+        "ventes": 134,
+        "prix": 26.95
+      },
+      {
+        "id": "ts0247",
+        "nom": {
+          "fr": "Achievement débloqué",
+          "en": "Achievement Unlocked",
+          "es": "Logro desbloqueado"
+        },
+        "dac": "2024-09-05",
+        "ventes": 176,
+        "prix": 25.99
+      }
+    ]
+  },
+  "musique": {
+    "theme": {
+      "fr": "Musique",
+      "en": "Music",
+      "es": "Música"
+    },
+    "produits": [
+      {
+        "id": "ts0023",
+        "nom": {
+          "fr": "Symphonie stellaire",
+          "en": "Stellar Symphony",
+          "es": "Sinfonía estelar"
+        },
+        "dac": "2023-03-22",
+        "ventes": 198,
+        "prix": 26.99
+      },
+      {
+        "id": "ts0037",
+        "nom": {
+          "fr": "Guitare volante",
+          "en": "Flying Guitar",
+          "es": "Guitarra voladora"
+        },
+        "dac": "2024-07-11",
+        "ventes": 134,
+        "prix": 24.75
+      },
+      {
+        "id": "ts0044",
+        "nom": {
+          "fr": "Vinyle cosmique",
+          "en": "Cosmic Vinyl",
+          "es": "Vinilo cósmico"
+        },
+        "dac": "2023-10-18",
+        "ventes": 156,
+        "prix": 22.50
+      },
+      {
+        "id": "ts0056",
+        "nom": {
+          "fr": "Beat quantique",
+          "en": "Quantum Beat",
+          "es": "Ritmo cuántico"
+        },
+        "dac": "2024-01-29",
+        "ventes": 89,
+        "prix": 25.95
+      },
+      {
+        "id": "ts0069",
+        "nom": {
+          "fr": "Piano des étoiles",
+          "en": "Piano of Stars",
+          "es": "Piano de las estrellas"
+        },
+        "dac": "2023-06-14",
+        "ventes": 178,
+        "prix": 27.25
+      },
+      {
+        "id": "ts0083",
+        "nom": {
+          "fr": "Microphone magique",
+          "en": "Magic Microphone",
+          "es": "Micrófono mágico"
+        },
+        "dac": "2024-04-03",
+        "ventes": 112,
+        "prix": 23.99
+      },
+      {
+        "id": "ts0096",
+        "nom": {
+          "fr": "Batterie tonnerre",
+          "en": "Thunder Drums",
+          "es": "Batería trueno"
+        },
+        "dac": "2023-09-07",
+        "ventes": 145,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0109",
+        "nom": {
+          "fr": "Mélodie interdimensionnelle",
+          "en": "Interdimensional Melody",
+          "es": "Melodía interdimensional"
+        },
+        "dac": "2024-08-16",
+        "ventes": 67,
+        "prix": 24.00
+      },
+      {
+        "id": "ts0125",
+        "nom": {
+          "fr": "Saxophone lunaire",
+          "en": "Lunar Saxophone",
+          "es": "Saxofón lunar"
+        },
+        "dac": "2023-05-26",
+        "ventes": 198,
+        "prix": 28.75
+      },
+      {
+        "id": "ts0140",
+        "nom": {
+          "fr": "Amplificateur galactique",
+          "en": "Galactic Amplifier",
+          "es": "Amplificador galáctico"
+        },
+        "dac": "2024-03-12",
+        "ventes": 84,
+        "prix": 25.25
+      },
+      {
+        "id": "ts0248",
+        "nom": {
+          "fr": "Vinyle éternel",
+          "en": "Eternal Vinyl",
+          "es": "Vinilo eterno"
+        },
+        "dac": "2024-01-22",
+        "ventes": 98,
+        "prix": 29.95
+      },
+      {
+        "id": "ts0249",
+        "nom": {
+          "fr": "Basse profonde",
+          "en": "Deep Bass",
+          "es": "Bajo profundo"
+        },
+        "dac": "2024-02-27",
+        "ventes": 112,
+        "prix": 27.50
+      },
+      {
+        "id": "ts0250",
+        "nom": {
+          "fr": "Note parfaite",
+          "en": "Perfect Note",
+          "es": "Nota perfecta"
+        },
+        "dac": "2024-03-15",
+        "ventes": 87,
+        "prix": 25.99
+      },
+      {
+        "id": "ts0251",
+        "nom": {
+          "fr": "Tempo irrégulier",
+          "en": "Irregular Tempo",
+          "es": "Tempo irregular"
+        },
+        "dac": "2024-04-20",
+        "ventes": 76,
+        "prix": 28.75
+      },
+      {
+        "id": "ts0252",
+        "nom": {
+          "fr": "Harmonie céleste",
+          "en": "Celestial Harmony",
+          "es": "Armonía celestial"
+        },
+        "dac": "2024-05-28",
+        "ventes": 104,
+        "prix": 30.50
+      },
+      {
+        "id": "ts0253",
+        "nom": {
+          "fr": "Crescendo dramatique",
+          "en": "Dramatic Crescendo",
+          "es": "Crescendo dramático"
+        },
+        "dac": "2024-06-15",
+        "ventes": 91,
+        "prix": 26.95
+      },
+      {
+        "id": "ts0254",
+        "nom": {
+          "fr": "Silence musical",
+          "en": "Musical Silence",
+          "es": "Silencio musical"
+        },
+        "dac": "2024-07-20",
+        "ventes": 83,
+        "prix": 24.99
+      },
+      {
+        "id": "ts0255",
+        "nom": {
+          "fr": "Acoustique magique",
+          "en": "Magic Acoustics",
+          "es": "Acústica mágica"
+        },
+        "dac": "2024-08-28",
+        "ventes": 95,
+        "prix": 27.95
+      }
+    ]
+  },
+  "science": {
+    "theme": {
+      "fr": "Science",
+      "en": "Science",
+      "es": "Ciencia"
+    },
+    "produits": [
+      {
+        "id": "ts0025",
+        "nom": {
+          "fr": "Laboratoire portable",
+          "en": "Portable Laboratory",
+          "es": "Laboratorio portátil"
+        },
+        "dac": "2023-04-09",
+        "ventes": 167,
+        "prix": 27.99
+      },
+      {
+        "id": "ts0038",
+        "nom": {
+          "fr": "Formule secrète",
+          "en": "Secret Formula",
+          "es": "Fórmula secreta"
+        },
+        "dac": "2024-02-17",
+        "ventes": 123,
+        "prix": 25.50
+      },
+      {
+        "id": "ts0046",
+        "nom": {
+          "fr": "Atome dansant",
+          "en": "Dancing Atom",
+          "es": "Átomo bailando"
+        },
+        "dac": "2023-08-04",
+        "ventes": 189,
+        "prix": 23.75
+      },
+      {
+        "id": "ts0057",
+        "nom": {
+          "fr": "Microscope magique",
+          "en": "Magic Microscope",
+          "es": "Microscopio mágico"
+        },
+        "dac": "2024-05-31",
+        "ventes": 78,
+        "prix": 26.95
+      },
+      {
+        "id": "ts0070",
+        "nom": {
+          "fr": "Equation céleste",
+          "en": "Celestial Equation",
+          "es": "Ecuación celestial"
+        },
+        "dac": "2023-11-12",
+        "ventes": 145,
+        "prix": 24.25
+      },
+      {
+        "id": "ts0084",
+        "nom": {
+          "fr": "Télescope temporel",
+          "en": "Time Telescope",
+          "es": "Telescopio temporal"
+        },
+        "dac": "2024-07-23",
+        "ventes": 94,
+        "prix": 28.50
+      },
+      {
+        "id": "ts0097",
+        "nom": {
+          "fr": "Éprouvette cosmique",
+          "en": "Cosmic Test Tube",
+          "es": "Tubo de ensayo cósmico"
+        },
+        "dac": "2023-12-05",
+        "ventes": 156,
+        "prix": 22.99
+      },
+      {
+        "id": "ts0110",
+        "nom": {
+          "fr": "Théorie du chaos",
+          "en": "Chaos Theory",
+          "es": "Teoría del caos"
+        },
+        "dac": "2024-06-08",
+        "ventes": 87,
+        "prix": 25.75
+      },
+      {
+        "id": "ts0126",
+        "nom": {
+          "fr": "Galaxie en éprouvette",
+          "en": "Galaxy in a Test Tube",
+          "es": "Galaxia en tubo de ensayo"
+        },
+        "dac": "2023-07-15",
+        "ventes": 178,
+        "prix": 27.00
+      },
+      {
+        "id": "ts0141",
+        "nom": {
+          "fr": "Particule rebelle",
+          "en": "Rebel Particle",
+          "es": "Partícula rebelde"
+        },
+        "dac": "2024-09-21",
+        "ventes": 65,
+        "prix": 24.50
+      },
+      {
+        "id": "ts0265",
+        "nom": {
+          "fr": "Atome dansant",
+          "en": "Dancing Atom",
+          "es": "Átomo danzante"
+        },
+        "dac": "2024-01-16",
+        "ventes": 92,
+        "prix": 27.95
+      },
+      {
+        "id": "ts0266",
+        "nom": {
+          "fr": "ADN artistique",
+          "en": "Artistic DNA",
+          "es": "ADN artístico"
+        },
+        "dac": "2024-02-21",
+        "ventes": 108,
+        "prix": 29.50
+      },
+      {
+        "id": "ts0267",
+        "nom": {
+          "fr": "Équation parfaite",
+          "en": "Perfect Equation",
+          "es": "Ecuación perfecta"
+        },
+        "dac": "2024-03-26",
+        "ventes": 76,
+        "prix": 25.99
+      },
+      {
+        "id": "ts0268",
+        "nom": {
+          "fr": "Microscope magique",
+          "en": "Magic Microscope",
+          "es": "Microscopio mágico"
+        },
+        "dac": "2024-04-30",
+        "ventes": 84,
+        "prix": 28.75
+      },
+      {
+        "id": "ts0269",
+        "nom": {
+          "fr": "Réaction chimique",
+          "en": "Chemical Reaction",
+          "es": "Reacción química"
+        },
+        "dac": "2024-05-15",
+        "ventes": 67,
+        "prix": 26.50
+      },
+      {
+        "id": "ts0270",
+        "nom": {
+          "fr": "Théorème vivant",
+          "en": "Living Theorem",
+          "es": "Teorema viviente"
+        },
+        "dac": "2024-06-20",
+        "ventes": 73,
+        "prix": 27.95
+      },
+      {
+        "id": "ts0271",
+        "nom": {
+          "fr": "Particule rebelle",
+          "en": "Rebel Particle",
+          "es": "Partícula rebelde"
+        },
+        "dac": "2024-07-25",
+        "ventes": 89,
+        "prix": 30.50
+      },
+      {
+        "id": "ts0272",
+        "nom": {
+          "fr": "Laboratoire cosmique",
+          "en": "Cosmic Lab",
+          "es": "Laboratorio cósmico"
+        },
+        "dac": "2024-08-19",
+        "ventes": 95,
+        "prix": 31.99
+      }
+    ]
+  },
+  "espace": {
+    "theme": {
+      "fr": "Espace",
+      "en": "Space",
+      "es": "Espacio"
+    },
+    "produits": [
+      {
+        "id": "ts0026",
+        "nom": {
+          "fr": "Astronaute rêveur",
+          "en": "Dreamy Astronaut",
+          "es": "Astronauta soñador"
+        },
+        "dac": "2023-02-14",
+        "ventes": 234,
+        "prix": 29.99
+      },
+      {
+        "id": "ts0040",
+        "nom": {
+          "fr": "Station spatiale",
+          "en": "Space Station",
+          "es": "Estación espacial"
+        },
+        "dac": "2024-08-02",
+        "ventes": 167,
+        "prix": 26.25
+      },
+      {
+        "id": "ts0048",
+        "nom": {
+          "fr": "Planète inconnue",
+          "en": "Unknown Planet",
+          "es": "Planeta desconocido"
+        },
+        "dac": "2023-05-07",
+        "ventes": 145,
+        "prix": 24.75
+      },
+      {
+        "id": "ts0059",
+        "nom": {
+          "fr": "Comète voyageuse",
+          "en": "Traveling Comet",
+          "es": "Cometa viajero"
+        },
+        "dac": "2024-01-16",
+        "ventes": 98,
+        "prix": 23.50
+      },
+      {
+        "id": "ts0072",
+        "nom": {
+          "fr": "Trou noir mystique",
+          "en": "Mystic Black Hole",
+          "es": "Agujero negro místico"
+        },
+        "dac": "2023-09-19",
+        "ventes": 189,
+        "prix": 27.95
+      },
+      {
+        "id": "ts0085",
+        "nom": {
+          "fr": "Satellite dansant",
+          "en": "Dancing Satellite",
+          "es": "Satélite bailando"
+        },
+        "dac": "2024-04-28",
+        "ventes": 123,
+        "prix": 25.00
+      },
+      {
+        "id": "ts0099",
+        "nom": {
+          "fr": "Nébuleuse arc-en-ciel",
+          "en": "Rainbow Nebula",
+          "es": "Nebulosa arcoíris"
+        },
+        "dac": "2023-06-12",
+        "ventes": 156,
+        "prix": 28.25
+      },
+      {
+        "id": "ts0111",
+        "nom": {
+          "fr": "Vaisseau temporel",
+          "en": "Time Ship",
+          "es": "Nave temporal"
+        },
+        "dac": "2024-09-14",
+        "ventes": 87,
+        "prix": 26.75
+      },
+      {
+        "id": "ts0127",
+        "nom": {
+          "fr": "Météore doré",
+          "en": "Golden Meteor",
+          "es": "Meteoro dorado"
+        },
+        "dac": "2023-11-03",
+        "ventes": 178,
+        "prix": 24.99
+      },
+      {
+        "id": "ts0142",
+        "nom": {
+          "fr": "Constellation personnelle",
+          "en": "Personal Constellation",
+          "es": "Constelación personal"
+        },
+        "dac": "2024-07-06",
+        "ventes": 92,
+        "prix": 22.50
+      },
+      {
+        "id": "ts0213",
+        "nom": {
+          "fr": "Astronaute perdu",
+          "en": "Lost Astronaut",
+          "es": "Astronauta perdido"
+        },
+        "dac": "2024-01-08",
+        "ventes": 102,
+        "prix": 31.50
+      },
+      {
+        "id": "ts0214",
+        "nom": {
+          "fr": "Planète rebelle",
+          "en": "Rebel Planet",
+          "es": "Planeta rebelde"
+        },
+        "dac": "2024-02-14",
+        "ventes": 76,
+        "prix": 28.99
+      },
+      {
+        "id": "ts0215",
+        "nom": {
+          "fr": "Comète dansante",
+          "en": "Dancing Comet",
+          "es": "Cometa danzante"
+        },
+        "dac": "2024-03-21",
+        "ventes": 54,
+        "prix": 25.95
+      },
+      {
+        "id": "ts0216",
+        "nom": {
+          "fr": "Satellite vintage",
+          "en": "Vintage Satellite",
+          "es": "Satélite vintage"
+        },
+        "dac": "2024-04-17",
+        "ventes": 88,
+        "prix": 30.50
+      },
+      {
+        "id": "ts0217",
+        "nom": {
+          "fr": "Nébuleuse mystique",
+          "en": "Mystic Nebula",
+          "es": "Nebulosa mística"
+        },
+        "dac": "2024-05-25",
+        "ventes": 112,
+        "prix": 32.95
+      },
+      {
+        "id": "ts0218",
+        "nom": {
+          "fr": "Ovni discret",
+          "en": "Discreet UFO",
+          "es": "OVNI discreto"
+        },
+        "dac": "2024-06-30",
+        "ventes": 145,
+        "prix": 27.75
+      },
+      {
+        "id": "ts0219",
+        "nom": {
+          "fr": "Trou noir amical",
+          "en": "Friendly Black Hole",
+          "es": "Agujero negro amigable"
+        },
+        "dac": "2024-07-15",
+        "ventes": 67,
+        "prix": 29.50
+      },
+      {
+        "id": "ts0220",
+        "nom": {
+          "fr": "Station orbitale",
+          "en": "Orbital Station",
+          "es": "Estación orbital"
+        },
+        "dac": "2024-08-20",
+        "ventes": 93,
+        "prix": 33.99
+      }
+    ]
+  },
+  "humour": {
+    "theme": {
+      "fr": "Humour",
+      "en": "Humor",
+      "es": "Humor"
+    },
+    "produits": [
+      {
+        "id": "ts0028",
+        "nom": {
+          "fr": "Blague quantique",
+          "en": "Quantum Joke",
+          "es": "Broma cuántica"
+        },
+        "dac": "2023-03-08",
+        "ventes": 298,
+        "prix": 21.95
+      },
+      {
+        "id": "ts0041",
+        "nom": {
+          "fr": "Rire incontrôlable",
+          "en": "Uncontrollable Laughter",
+          "es": "Risa incontrolable"
+        },
+        "dac": "2024-06-15",
+        "ventes": 167,
+        "prix": 19.99
+      },
+      {
+        "id": "ts0049",
+        "nom": {
+          "fr": "Café du lundi",
+          "en": "Monday Coffee",
+          "es": "Café del lunes"
+        },
+        "dac": "2023-10-24",
+        "ventes": 234,
+        "prix": 18.75
+      },
+      {
+        "id": "ts0061",
+        "nom": {
+          "fr": "Procrastination level expert",
+          "en": "Expert Procrastination Level",
+          "es": "Nivel experto en procrastinación"
+        },
+        "dac": "2024-02-09",
+        "ventes": 189,
+        "prix": 22.25
+      },
+      {
+        "id": "ts0073",
+        "nom": {
+          "fr": "Wifi introuvable",
+          "en": "WiFi Not Found",
+          "es": "WiFi no encontrado"
+        },
+        "dac": "2023-07-31",
+        "ventes": 345,
+        "prix": 20.50
+      },
+      {
+        "id": "ts0087",
+        "nom": {
+          "fr": "Mode avion activé",
+          "en": "Airplane Mode Activated",
+          "es": "Modo avión activado"
+        },
+        "dac": "2024-05-22",
+        "ventes": 156,
+        "prix": 21.00
+      },
+      {
+        "id": "ts0100",
+        "nom": {
+          "fr": "Batterie faible",
+          "en": "Low Battery",
+          "es": "Batería baja"
+        },
+        "dac": "2023-12-13",
+        "ventes": 278,
+        "prix": 19.25
+      },
+      {
+        "id": "ts0113",
+        "nom": {
+          "fr": "Erreur 404 : motivation introuvable",
+          "en": "Error 404: Motivation Not Found",
+          "es": "Error 404: motivación no encontrada"
+        },
+        "dac": "2024-08-05",
+        "ventes": 298,
+        "prix": 23.95
+      },
+      {
+        "id": "ts0130",
+        "nom": {
+          "fr": "Pause déjeuner éternelle",
+          "en": "Eternal Lunch Break",
+          "es": "Pausa de almuerzo eterna"
+        },
+        "dac": "2023-04-26",
+        "ventes": 167,
+        "prix": 20.75
+      },
+      {
+        "id": "ts0144",
+        "nom": {
+          "fr": "Chargement en cours...",
+          "en": "Loading...",
+          "es": "Cargando..."
+        },
+        "dac": "2024-09-18",
+        "ventes": 234,
+        "prix": 18.99
+      },
+      {
+        "id": "ts0221",
+        "nom": {
+          "fr": "Café existentiel",
+          "en": "Existential Coffee",
+          "es": "Café existencial"
+        },
+        "dac": "2024-01-12",
+        "ventes": 156,
+        "prix": 22.50
+      },
+      {
+        "id": "ts0222",
+        "nom": {
+          "fr": "Pizza philosophique",
+          "en": "Philosophical Pizza",
+          "es": "Pizza filosófica"
+        },
+        "dac": "2024-02-18",
+        "ventes": 189,
+        "prix": 23.95
+      },
+      {
+        "id": "ts0223",
+        "nom": {
+          "fr": "Bureau en désordre",
+          "en": "Messy Desk",
+          "es": "Escritorio desordenado"
+        },
+        "dac": "2024-03-25",
+        "ventes": 134,
+        "prix": 21.99
+      },
+      {
+        "id": "ts0224",
+        "nom": {
+          "fr": "Lundi maudit",
+          "en": "Cursed Monday",
+          "es": "Lunes maldito"
+        },
+        "dac": "2024-04-10",
+        "ventes": 201,
+        "prix": 24.50
+      },
+      {
+        "id": "ts0225",
+        "nom": {
+          "fr": "Wifi introuvable",
+          "en": "WiFi Not Found",
+          "es": "WiFi no encontrado"
+        },
+        "dac": "2024-05-16",
+        "ventes": 167,
+        "prix": 22.95
+      },
+      {
+        "id": "ts0226",
+        "nom": {
+          "fr": "Mode avion permanent",
+          "en": "Permanent Airplane Mode",
+          "es": "Modo avión permanente"
+        },
+        "dac": "2024-06-22",
+        "ventes": 145,
+        "prix": 23.75
+      },
+      {
+        "id": "ts0227",
+        "nom": {
+          "fr": "Batterie 1%",
+          "en": "Battery 1%",
+          "es": "Batería 1%"
+        },
+        "dac": "2024-07-28",
+        "ventes": 178,
+        "prix": 21.50
+      },
+      {
+        "id": "ts0228",
+        "nom": {
+          "fr": "Ctrl+Z la vie",
+          "en": "Ctrl+Z Life",
+          "es": "Ctrl+Z la vida"
+        },
+        "dac": "2024-08-15",
+        "ventes": 192,
+        "prix": 24.99
+      },
+      {
+        "id": "ts0229",
+        "nom": {
+          "fr": "Loading éternel",
+          "en": "Eternal Loading",
+          "es": "Carga eterna"
+        },
+        "dac": "2024-09-10",
+        "ventes": 156,
+        "prix": 23.50
+      }
+    ]
+  },
+  "vintage": {
+    "theme": {
+      "fr": "Vintage",
+      "en": "Vintage",
+      "es": "Vintage"
+    },
+    "produits": [
+      {
+        "id": "ts0029",
+        "nom": {
+          "fr": "Machine à écrire magique",
+          "en": "Magic Typewriter",
+          "es": "Máquina de escribir mágica"
+        },
+        "dac": "2023-01-18",
+        "ventes": 178,
+        "prix": 31.50
+      },
+      {
+        "id": "ts0050",
+        "nom": {
+          "fr": "Polaroid nostalgique",
+          "en": "Nostalgic Polaroid",
+          "es": "Polaroid nostálgico"
+        },
+        "dac": "2024-03-24",
+        "ventes": 134,
+        "prix": 28.25
+      },
+      {
+        "id": "ts0062",
+        "nom": {
+          "fr": "Jukebox stellaire",
+          "en": "Stellar Jukebox",
+          "es": "Jukebox estelar"
+        },
+        "dac": "2023-08-17",
+        "ventes": 167,
+        "prix": 33.99
+      },
+      {
+        "id": "ts0075",
+        "nom": {
+          "fr": "Téléphone à cadran",
+          "en": "Rotary Phone",
+          "es": "Teléfono de disco"
+        },
+        "dac": "2024-06-01",
+        "ventes": 89,
+        "prix": 29.75
+      },
+      {
+        "id": "ts0089",
+        "nom": {
+          "fr": "Caméra rétro",
+          "en": "Retro Camera",
+          "es": "Cámara retro"
+        },
+        "dac": "2023-11-20",
+        "ventes": 145,
+        "prix": 27.50
+      },
+      {
+        "id": "ts0102",
+        "nom": {
+          "fr": "Lampe à huile moderne",
+          "en": "Modern Oil Lamp",
+          "es": "Lámpara de aceite moderna"
+        },
+        "dac": "2024-01-14",
+        "ventes": 76,
+        "prix": 32.25
+      },
+      {
+        "id": "ts0116",
+        "nom": {
+          "fr": "Gramophone cosmique",
+          "en": "Cosmic Gramophone",
+          "es": "Gramófono cósmico"
+        },
+        "dac": "2023-05-09",
+        "ventes": 198,
+        "prix": 35.00
+      },
+      {
+        "id": "ts0131",
+        "nom": {
+          "fr": "Pendule temporelle",
+          "en": "Time Pendulum",
+          "es": "Péndulo temporal"
+        },
+        "dac": "2024-08-27",
+        "ventes": 112,
+        "prix": 30.95
+      },
+      {
+        "id": "ts0145",
+        "nom": {
+          "fr": "Malle aux trésors",
+          "en": "Treasure Chest",
+          "es": "Cofre del tesoro"
+        },
+        "dac": "2023-09-12",
+        "ventes": 156,
+        "prix": 28.99
+      },
+      {
+        "id": "ts0030",
+        "nom": {
+          "fr": "Radio galactique",
+          "en": "Galactic Radio",
+          "es": "Radio galáctica"
+        },
+        "dac": "2024-04-15",
+        "ventes": 123,
+        "prix": 26.75
+      },
+      {
+        "id": "ts0281",
+        "nom": {
+          "fr": "Téléphone rétro",
+          "en": "Retro Phone",
+          "es": "Teléfono retro"
+        },
+        "dac": "2024-01-11",
+        "ventes": 189,
+        "prix": 32.95
+      },
+      {
+        "id": "ts0282",
+        "nom": {
+          "fr": "Machine à écrire ancienne",
+          "en": "Ancient Typewriter",
+          "es": "Máquina de escribir antigua"
+        },
+        "dac": "2024-02-15",
+        "ventes": 167,
+        "prix": 34.50
+      },
+      {
+        "id": "ts0283",
+        "nom": {
+          "fr": "Caméra d'époque",
+          "en": "Vintage Camera",
+          "es": "Cámara de época"
+        },
+        "dac": "2024-03-20",
+        "ventes": 145,
+        "prix": 31.99
+      },
+      {
+        "id": "ts0284",
+        "nom": {
+          "fr": "Poste de radio classique",
+          "en": "Classic Radio",
+          "es": "Radio clásica"
+        },
+        "dac": "2024-04-24",
+        "ventes": 178,
+        "prix": 33.75
+      },
+      {
+        "id": "ts0285",
+        "nom": {
+          "fr": "Projecteur ancien",
+          "en": "Old Projector",
+          "es": "Proyector antiguo"
+        },
+        "dac": "2024-05-29",
+        "ventes": 134,
+        "prix": 35.50
+      },
+      {
+        "id": "ts0286",
+        "nom": {
+          "fr": "Vélo vintage",
+          "en": "Vintage Bicycle",
+          "es": "Bicicleta vintage"
+        },
+        "dac": "2024-06-13",
+        "ventes": 156,
+        "prix": 30.95
+      },
+      {
+        "id": "ts0287",
+        "nom": {
+          "fr": "Horloge à gousset",
+          "en": "Pocket Watch",
+          "es": "Reloj de bolsillo"
+        },
+        "dac": "2024-07-17",
+        "ventes": 201,
+        "prix": 36.99
+      },
+      {
+        "id": "ts0288",
+        "nom": {
+          "fr": "Lampe à huile",
+          "en": "Oil Lamp",
+          "es": "Lámpara de aceite"
+        },
+        "dac": "2024-08-21",
+        "ventes": 123,
+        "prix": 29.95
+      }
+    ]
+  }
+}
